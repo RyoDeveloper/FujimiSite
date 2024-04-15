@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "BGS5U89ZQT.ryodeveloper.Fujimi",
+                    "BGS5U89ZQT.ryodeveloper.Fujimi-Dev"
+                ],
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}

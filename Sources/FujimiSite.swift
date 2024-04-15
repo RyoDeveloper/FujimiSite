@@ -1,14 +1,21 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
-// 
+//
 // Swift Argument Parser
 // https://swiftpackageindex.com/apple/swift-argument-parser/documentation
 
-import ArgumentParser
+import Foundation
+import Ignite
 
 @main
-struct FujimiSite: ParsableCommand {
-    mutating func run() throws {
-        print("Hello, world!")
+struct FujimiSite {
+    static func main() {
+        let site = MySite()
+
+        do {
+            try site.publish()
+        } catch {
+            print(error.localizedDescription)
+        }
     }
 }
